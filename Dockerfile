@@ -1,4 +1,4 @@
-ARG TRT_VERSION_TAG=22.12-py3
+ARG TRT_VERSION_TAG="Define this variable as [--build-arg TRT_VERSION_TAG {NVIDIA_TENSORRT_TAG}] during docker build."
 FROM nvcr.io/nvidia/tensorrt:${TRT_VERSION_TAG}
 
 # install apt
