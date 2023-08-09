@@ -1,4 +1,5 @@
-FROM nvcr.io/nvidia/tensorrt:22.12-py3
+ARG TRT_VERSION_TAG=22.12-py3
+FROM nvcr.io/nvidia/tensorrt:${TRT_VERSION_TAG}
 
 # install apt
 RUN apt-get update && apt install -y --no-install-recommends \
