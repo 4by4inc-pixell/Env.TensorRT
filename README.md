@@ -3,6 +3,10 @@
 TensorRT Docker Image를 위한 Repository입니다.
 
 - [Original Image Info](https://catalog.ngc.nvidia.com/orgs/nvidia/containers/tensorrt)
+- latest image version : 23.09-py3
+  ```bash
+  docker pull ghcr.io/4by4inc-pixell/env.tensorrt:$VERSION
+  ```
 
 ## docker build 
 ```bash
