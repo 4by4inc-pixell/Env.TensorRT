@@ -2,7 +2,7 @@
 
 TensorRT Docker Image를 위한 Repository입니다.
 
-- [Original Image Info](https://docs.nvidia.com/deeplearning/tensorrt/container-release-notes/rel-22-12.html#rel-22-12)
+- [Original Image Info](https://catalog.ngc.nvidia.com/orgs/nvidia/containers/tensorrt)
 
 ## docker build 
 ```bash
